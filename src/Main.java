@@ -33,9 +33,7 @@ public class Main { // Класс Main
         int sumOfWaste = 0;
 
         for (final int current : arr) {
-
             sumOfWaste += current;
-
         }
 
         System.out.printf("Сумма трат за месяц %,d рублей.%n", sumOfWaste);
