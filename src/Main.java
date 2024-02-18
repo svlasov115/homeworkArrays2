@@ -50,19 +50,18 @@ public class Main { // Класс Main
         int minWaste = arr[0];
 
         for (final int current : arr) {
+
             if (current > maxWaste) {
                 maxWaste = current;
             }
-        }
 
-        System.out.printf("Максимальная сумма трат за день составила %,d рублей.%n", maxWaste);
-
-        for (final int current : arr) {
             if (current < minWaste) {
                 minWaste = current;
             }
+
         }
 
+        System.out.printf("Максимальная сумма трат за день составила %,d рублей.%n", maxWaste);
         System.out.printf("Минимальная сумма трат за день составила %,d рублей.%n", minWaste);
         System.out.println();
 
